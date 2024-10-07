@@ -1,0 +1,35 @@
+﻿@inherits LayoutComponentBase
+
+<header>
+    <div class="logo">
+        <p>Mátyáskert tippverseny</p>
+        <img src="/images/logo.png"/>
+    </div>
+    <div class="left-side">
+        <div class="left-side-menu">
+            <a href="/">Rólunk</a>
+        </div>
+        <div class="left-side-buttons">
+            <a href="/" class="btn btn-success">Bejelentkezés</a>
+            <a href="/" class="btn btn-primary">Regisztráció</a>
+        </div>
+    </div>
+</header>
+
+<div class="page">
+    <div>
+        <NavMenu />
+    </div>
+
+    <main>
+        <article>
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
